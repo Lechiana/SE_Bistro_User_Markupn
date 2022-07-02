@@ -1,0 +1,15 @@
+.card-compact {
+  width: 22.7rem;
+}
+
+.widthBarChart {
+  border-radius: 10px;
+  width: 1000px;
+  margin-top: 1rem;
+}
+.widthPieChart {
+  border-radius: 10px;
+  width: 490px;
+  height: 440px;
+  margin-top: 1rem;
+}
