@@ -36,7 +36,7 @@ import ConfirmOrder from "./pages/ConfirmOrder";
 import AllCoupons from "./pages/AllCoupons";
 import Recoveremail from "./pages/Recoveremail";
 import Confirmemail from "./pages/Confirmemail";
-import Dashboard from "./pages/Dashboard";
+// import Dashboard from "./pages/Dashboard";
 
 const App = () => {
   return (
@@ -79,7 +79,7 @@ const App = () => {
         <Route path="/Receipt" element={<Receipt />} />
         <Route path="/ConfirmOrder" element={<ConfirmOrder />} />
         <Route path="/AllCoupons" element={<AllCoupons />} />
-        <Route path="/Dashboard" element={<Dashboard />} />
+        {/* <Route path="/Dashboard" element={<Dashboard />} /> */}
       </Routes>
     </BrowserRouter>
   );
